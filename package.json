@@ -1,0 +1,14 @@
+{
+  "name": "scrolltoy",
+  "version": "2.0.0",
+  "description": "Scroll To Y (optionally animate it)",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
