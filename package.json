@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "standard": "^10.0.3"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voltraco/scrolltoy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voltraco/scrolltoy/issues"
+  },
+  "homepage": "https://github.com/voltraco/scrolltoy#readme"
 }
