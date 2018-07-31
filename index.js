@@ -22,6 +22,7 @@ module.exports = function scrollToY (el, Y, speed) {
   let currentTime = 0
 
   function setY () {
+    module.exports.scrolling = true
     currentTime += 1 / 60
 
     var p = currentTime / time
@@ -45,6 +46,8 @@ module.exports = function scrollToY (el, Y, speed) {
     } else {
       el.scrollTop = Y
     }
+
+    module.exports.scrolling = false
   }
   setY()
 }
